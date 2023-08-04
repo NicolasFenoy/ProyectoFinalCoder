@@ -267,7 +267,7 @@ header img {
     font-size: 20px;
 }
 
-.bioelementosCero {
+.elementosCero {
     text-align: center;
     background-color: rgb(1, 107, 168);
     color: rgb(255, 255, 255);
@@ -275,7 +275,21 @@ header img {
     font-style: italic;
 }
 
-.bioelementosCeroParrafo {
+.elementosCeroParrafo {
+    color: rgb(0, 0, 0);
+    text-transform: lowercase;
+    font-style: normal;
+}
+
+.bioelementos{
+    text-align: center;
+    background-color: rgb(1, 107, 168);
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.bioelementosParrafo {
     color: rgb(0, 0, 0);
     text-transform: lowercase;
     font-style: normal;
