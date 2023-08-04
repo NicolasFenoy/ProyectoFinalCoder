@@ -1,0 +1,3169 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Slab', serif;
+    box-sizing: border-box;
+}
+
+/*INDEX*/
+
+.bodyIndex {
+    background-color: rgb(1, 107, 168);
+}
+
+.claseNav {
+    background: linear-gradient(to top, rgb(255, 255, 0), rgb(1, 107, 168));
+}
+
+.claseNav img {
+    width: 175px;
+    height: 150px;
+    border: dashed;
+    color: rgb(0, 0, 255);
+}
+
+.claseNav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-style: italic;
+
+}
+
+.claseNav a:visited {
+    color: rgb(0, 0, 255);
+}
+
+.claseNav a:active {
+    color: rgb(255, 0, 0);
+}
+
+header {
+    background-color: rgb(0, 255, 0);
+    border: dashed;
+    color: rgb(0, 0, 255);
+}
+
+header img {
+    width: 100%;
+    height: 100%;
+}
+
+.tituloVida {
+    text-align: center;
+    color: rgb(0, 0, 255);
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+.vida {
+    background: linear-gradient(to top, rgb(0, 255, 0), rgb(1, 107, 168));
+    padding: 5px;
+    text-transform: lowercase;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.tipos {
+    background-color: rgb(1, 107, 168);
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+.tiposDeReinos {
+    list-style-type: none;
+    font-style: normal;
+}
+
+.mayusculaMuerte {
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+}
+
+.muerte {
+    padding: 5px;
+    text-align: center;
+    background-color: rgb(1, 107, 168);
+    color: rgb(0, 0, 0);
+    align-items: center;
+}
+
+.calaveraCalavera {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.imagenDeLaMuerte {
+    width: 400px;
+    height: 400px;
+    border: dashed;
+    color: rgb(0, 0, 255);
+}
+
+.queEsElAgua {
+    text-align: center;
+    background-color: rgb(1, 107, 168);
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.modificarAguaAgua {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    text-align: center;
+}
+
+.imagenDeAguaAgua {
+    width: 400px;
+    height: 400px;
+    border: dashed;
+    color: rgb(0, 0, 255);
+}
+
+.moleculaAgua {
+    text-transform: lowercase;
+    font-style: normal;
+    color: rgb(0, 0, 0);
+}
+
+.elAgua {
+    text-align: center;
+    background-color: rgb(1, 107, 168);
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.cualidadesDelAgua {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    font-size: 20px;
+    font-style: normal;
+}
+
+.cicloAgua {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(1, 107, 168);
+    text-transform: uppercase;
+    font-style: italic;
+    font-size: small;
+}
+
+.cicloParrafoAgua {
+    color: rgb(0, 0, 0);
+    text-transform: lowercase;
+    font-style: normal;
+}
+
+.fasesCicloAgua {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.videoAgua {
+    background-color: rgb(1, 107, 168);
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.videoDelIndex {
+    width: 50%;
+    height: 450px;
+    border: dashed;
+    color: rgb(0, 0, 255);
+}
+
+.dulceSalado {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(1, 107, 168);
+    padding: 5px;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.saladoDulce {
+    color: rgb(0, 0, 0);
+    text-transform: lowercase;
+    font-style: normal;
+}
+
+.elSol {
+    padding: 5px;
+    text-align: center;
+    background-color: rgb(1, 107, 168);
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.imagenCero {
+    display: flex;
+    border: dashed;
+    color: rgb(0, 0, 255);
+}
+
+.imagenUno {
+    width: 50%;
+    height: 450px;
+}
+
+.imagenDos {
+    width: 50%;
+    height: 450px;
+}
+
+.elSolParrafo {
+    text-transform: lowercase;
+    font-style: normal;
+    color: rgb(0, 0, 0);
+}
+
+
+.laAtmosfera {
+    background-color: rgb(1, 107, 168);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 5px;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.imgP {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.imgAtmosfera {
+    width: 100%;
+    height: 100%;
+    border: dashed;
+    color: rgb(0, 0, 255);
+}
+
+.laAtmosferaParrafo {
+    color: rgb(0, 0, 0);
+    text-transform: lowercase;
+    font-style: normal;
+}
+
+.artículo {
+    display: inline-block;
+    padding: 35px;
+    list-style-type: none;
+    font-size: 20px;
+}
+
+.formulario {
+    text-align: center;
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-style: italic;
+    background: linear-gradient(to top, rgb(255, 0, 0), rgb(0, 0, 255));
+    font-size: small;
+}
+
+.formularioHDos {
+    text-transform: lowercase;
+    font-style: normal;
+    color: rgb(0, 0, 0);
+}
+
+.divLabel {
+    display: flex;
+    flex-direction: column;
+}
+
+.divLabelDos {
+    display: inline-block;
+    padding: 10px;
+}
+
+.cuadroFormulario {
+    width: 30%;
+    height: 350px;
+}
+
+footer {
+    padding: 5px;
+    background: linear-gradient(to top, rgb(255, 0, 136), rgb(255, 255, 255));
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    color: rgb(0, 0, 0);
+    padding: 10px;
+}
+
+.footerFooter {
+    width: 3em;
+    height: 3em;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+h1 {
+    font-size: 2.8em;
+}
+
+h2 {
+    font-size: 2.5em;
+}
+
+h3 {
+    font-size: 2.3em;
+}
+
+li {
+    font-size: 1.2em;
+}
+
+form input:hover {
+    cursor: pointer;
+    background-color: rgb(112, 112, 112);
+}
+
+div textarea:hover {
+    cursor: pointer;
+    background-color: rgb(112, 112, 112);
+}
+
+
+/*TABLE INDEX*/
+
+@media (width < 768px) {
+    .bodyIndex {
+        background-color: rgb(0, 255, 0);
+        border: solid;
+    }
+
+    .claseNav {
+        background: linear-gradient(to top, rgb(0, 255, 0), rgb(255, 255, 0));
+    }
+
+    .claseNav img {
+        width: 175px;
+        height: 150px;
+        border: dashed;
+        color: rgb(0, 0, 255);
+    }
+
+    .claseNav a {
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        font-style: italic;
+
+    }
+
+    .claseNav a:visited {
+        color: rgb(255, 0, 0);
+    }
+
+    .claseNav a:active {
+        color: rgb(255, 0, 136);
+    }
+
+    header {
+        background-color: rgb(0, 255, 0);
+        border: dashed;
+        color: rgb(0, 0, 255);
+    }
+
+    header img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .tituloVida {
+        text-align: center;
+        color: rgb(0, 0, 0);
+        font-style: italic;
+        text-transform: uppercase;
+    }
+
+    .vida {
+        padding: 5px;
+        text-transform: lowercase;
+        color: rgb(0, 0, 255);
+        text-align: center;
+    }
+
+    .tipos {
+        background-color: rgb(0, 255, 0);
+        color: rgb(0, 0, 0);
+        font-style: italic;
+        text-transform: uppercase;
+    }
+
+    .tiposDeReinos {
+        list-style-type: none;
+        font-style: normal;
+    }
+
+    .mayusculaMuerte {
+        text-transform: uppercase;
+        color: rgb(0, 0, 0);
+    }
+
+    .muerte {
+        padding: 5px;
+        text-align: center;
+        background-color: rgb(0, 255, 0);
+        color: rgb(0, 0, 255);
+        align-items: center;
+    }
+
+    .calaveraCalavera {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .imagenDeLaMuerte {
+        width: 100%;
+        height: 400px;
+        border: dashed;
+        color: rgb(0, 0, 255);
+    }
+
+    .queEsElAgua {
+        text-align: center;
+        background-color: rgb(0, 255, 0);
+        color: rgb(0, 0, 0);
+        text-transform: uppercase;
+        font-style: italic;
+    }
+
+    .modificarAguaAgua {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .imagenDeAguaAgua {
+        width: 100%;
+        height: 400px;
+        border: dashed;
+        color: rgb(0, 0, 255);
+    }
+
+    .moleculaAgua {
+        text-transform: lowercase;
+        font-style: normal;
+        color: rgb(0, 0, 255);
+    }
+
+    .elAgua {
+        text-align: center;
+        background-color: rgb(0, 255, 0);
+        color: rgb(0, 0, 0);
+        text-transform: uppercase;
+        font-style: italic;
+    }
+
+    .cualidadesDelAgua {
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        font-size: 20px;
+        font-style: normal;
+    }
+
+    .cicloAgua {
+        text-align: center;
+        color: rgb(0, 0, 0);
+        background-color: rgb(0, 255, 0);
+        text-transform: uppercase;
+        font-style: italic;
+    }
+
+    .cicloParrafoAgua {
+        color: rgb(0, 0, 255);
+        text-transform: lowercase;
+        font-style: normal;
+    }
+
+    .fasesCicloAgua {
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        font-style: normal;
+        font-size: 20px;
+    }
+
+    .videoAgua {
+        background-color: rgb(0, 255, 0);
+        color: rgb(0, 0, 0);
+        padding: 5px;
+        text-align: center;
+        text-transform: uppercase;
+        font-style: italic;
+    }
+
+    .videoDelIndex {
+        width: 100%;
+        height: 450px;
+        border: dashed;
+        color: rgb(0, 0, 255);
+    }
+
+    .dulceSalado {
+        text-align: center;
+        color: rgb(0, 0, 0);
+        background-color: rgb(0, 255, 0);
+        padding: 5px;
+        text-transform: uppercase;
+        font-style: italic;
+    }
+
+    .saladoDulce {
+        color: rgb(0, 0, 255);
+        text-transform: lowercase;
+        font-style: normal;
+    }
+
+    .elSol {
+        padding: 5px;
+        text-align: center;
+        background-color: rgb(0, 255, 0);
+        color: rgb(0, 0, 0);
+        text-transform: uppercase;
+        font-style: italic;
+    }
+
+    .imagenCero {
+        display: flex;
+        border: dashed;
+        color: rgb(0, 0, 255);
+    }
+
+    .imagenUno {
+        width: 50%;
+        height: 450px;
+    }
+
+    .imagenDos {
+        width: 50%;
+        height: 450px;
+    }
+
+    .elSolParrafo {
+        text-transform: lowercase;
+        font-style: normal;
+        color: rgb(0, 0, 255);
+    }
+
+
+    .laAtmosfera {
+        background-color: rgb(0, 255, 0);
+        color: rgb(0, 0, 0);
+        text-align: center;
+        padding: 5px;
+        text-transform: uppercase;
+        font-style: italic;
+    }
+
+    .imgP {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .imgAtmosfera {
+        width: 100%;
+        height: 100%;
+        border: dashed;
+        color: rgb(0, 0, 255);
+    }
+
+    .laAtmosferaParrafo {
+        color: rgb(0, 0, 255);
+        text-transform: lowercase;
+        font-style: normal;
+    }
+
+    .artículo {
+        display: inline-block;
+        padding: 35px;
+        list-style-type: none;
+        font-size: 20px;
+    }
+
+    .formulario {
+        text-align: center;
+        padding: 5px;
+        color: rgb(255, 255, 0);
+        text-transform: uppercase;
+        font-style: italic;
+        background: linear-gradient(to top, rgb(255, 0, 0), rgb(255, 0, 136));
+    }
+
+    .formularioHDos {
+        text-transform: lowercase;
+        font-style: normal;
+        color: rgb(0, 0, 255);
+    }
+
+    .divLabel {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .divLabelDos {
+        display: inline-block;
+        padding: 10px;
+    }
+
+    .cuadroFormulario {
+        width: 30%;
+        height: 350px;
+    }
+
+    footer {
+        padding: 5px;
+        background: linear-gradient(to top, rgb(255, 0, 136), rgb(255, 255, 0));
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer {
+        color: rgb(0, 0, 255);
+        padding: 10px;
+    }
+
+    .footerFooter {
+        width: 3em;
+        height: 3em;
+    }
+}
+
+/*VISTA MOBILE INDEX*/
+
+@media (width < 320px) {
+    .bodyIndex {
+        background-color: rgb(255, 255, 0);
+        border: solid;
+    }
+
+    .claseNav {
+        background: linear-gradient(to top, rgb(255, 255, 255), rgb(0, 0, 0));
+    }
+
+    .claseNav img {
+        width: 175px;
+        height: 150px;
+        border: dashed;
+        color: rgb(0, 0, 255);
+    }
+
+    .claseNav a {
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        font-style: italic;
+
+    }
+
+    .claseNav a:visited {
+        color: rgb(255, 0, 0);
+    }
+
+    .claseNav a:active {
+        color: rgb(255, 0, 136);
+    }
+
+    header {
+        background-color: rgb(255, 255, 0);
+        border: dashed;
+        color: rgb(0, 0, 255);
+    }
+
+    header img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .vida {
+        padding: 5px;
+        text-transform: lowercase;
+        color: rgb(0, 0, 255);
+        text-align: center;
+    }
+
+    .tituloVida {
+        text-align: center;
+        color: rgb(255, 0, 0);
+        font-style: italic;
+        text-transform: uppercase;
+    }
+
+    .tiposDeReinos {
+        list-style-type: none;
+        font-style: normal;
+        color: rgb(255, 0, 0);
+        padding: 5px;
+    }
+
+    .tipos {
+        background-color: rgb(255, 255, 0);
+        font-style: italic;
+        text-transform: uppercase;
+        padding: 5px;
+        color: rgb(255, 0, 0);
+    }
+
+    .mayusculaMuerte {
+        text-transform: uppercase;
+        color: rgb(255, 0, 0);
+    }
+
+    .muerte {
+        padding: 5px;
+        text-align: center;
+        background-color: rgb(255, 255, 0);
+        color: rgb(0, 0, 255);
+        align-items: center;
+    }
+
+    .calaveraCalavera {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .imagenDeLaMuerte {
+        width: 100%;
+        height: 400px;
+        border: dashed;
+        color: rgb(0, 0, 255);
+    }
+
+    .queEsElAgua {
+        text-align: center;
+        background-color: rgb(255, 255, 0);
+        color: rgb(255, 0, 0);
+        text-transform: uppercase;
+        font-style: italic;
+        font-size: small;
+    }
+
+    .modificarAguaAgua {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .imagenDeAguaAgua {
+        width: 100%;
+        height: 400px;
+        border: dashed;
+        color: rgb(0, 0, 255);
+    }
+
+    .moleculaAgua {
+        text-transform: lowercase;
+        font-style: normal;
+        color: rgb(0, 0, 255);
+    }
+
+    .elAgua {
+        text-align: center;
+        background-color: rgb(255, 255, 0);
+        color: rgb(255, 0, 0);
+        text-transform: uppercase;
+        font-style: italic;
+        padding: 5px;
+    }
+
+    .cualidadesDelAgua {
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        font-size: 20px;
+        font-style: normal;
+        padding: 5px;
+    }
+
+    .cicloAgua {
+        text-align: center;
+        color: rgb(255, 0, 0);
+        background-color: rgb(255, 255, 0);
+        text-transform: uppercase;
+        font-style: italic;
+        padding: 5px;
+    }
+
+    .cicloParrafoAgua {
+        color: rgb(0, 0, 255);
+        text-transform: lowercase;
+        font-style: normal;
+        padding: 5px;
+    }
+
+    .fasesCicloAgua {
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        font-style: normal;
+        font-size: 20px;
+        padding: 5px;
+    }
+
+    .videoAgua {
+        background-color: rgb(255, 255, 0);
+        color: rgb(255, 0, 0);
+        padding: 5px;
+        text-align: center;
+        text-transform: uppercase;
+        font-style: italic;
+    }
+
+    .videoDelIndex {
+        width: 100%;
+        height: 450px;
+        border: dashed;
+        color: rgb(0, 0, 255);
+    }
+
+    .dulceSalado {
+        text-align: center;
+        color: rgb(255, 0, 0);
+        background-color: rgb(255, 255, 0);
+        padding: 5px;
+        text-transform: uppercase;
+        font-style: italic;
+    }
+
+    .saladoDulce {
+        color: rgb(0, 0, 255);
+        text-transform: lowercase;
+        font-style: normal;
+    }
+
+    .elSol {
+        padding: 5px;
+        text-align: center;
+        background-color: rgb(255, 255, 0);
+        color: rgb(255, 0, 0);
+        text-transform: uppercase;
+        font-style: italic;
+    }
+
+    .imagenCero {
+        display: flex;
+        flex-direction: column;
+        border: dashed;
+        color: rgb(0, 0, 255);
+    }
+
+    .imagenUno {
+        width: 100%;
+        height: 450px;
+    }
+
+    .imagenDos {
+        width: 100%;
+        height: 450px;
+    }
+
+    .elSolParrafo {
+        text-transform: lowercase;
+        font-style: normal;
+        color: rgb(0, 0, 255);
+    }
+
+
+    .laAtmosfera {
+        background-color: rgb(255, 255, 0);
+        color: rgb(255, 0, 0);
+        text-align: center;
+        padding: 5px;
+        text-transform: uppercase;
+        font-style: italic;
+    }
+
+    .imgP {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .imgAtmosfera {
+        width: 100%;
+        height: 100%;
+        border: dashed;
+        color: rgb(0, 0, 255);
+    }
+
+    .laAtmosferaParrafo {
+        color: rgb(0, 0, 255);
+        text-transform: lowercase;
+        font-style: normal;
+    }
+
+    .artículo {
+        display: inline-block;
+        padding: 35px;
+        list-style-type: none;
+        font-size: 25px;
+    }
+
+    .formulario {
+        text-align: center;
+        padding: 5px;
+        color: rgb(255, 0, 0);
+        text-transform: uppercase;
+        font-style: italic;
+        background: linear-gradient(to top, rgb(0, 255, 0), rgb(255, 255, 0));
+    }
+
+    .formularioHDos {
+        text-transform: lowercase;
+        font-style: normal;
+        color: rgb(0, 0, 255);
+    }
+
+    .divLabel {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .divLabelDos {
+        display: inline-block;
+        padding: 10px;
+    }
+
+    .cuadroFormulario {
+        width: 70%;
+        height: 350px;
+    }
+
+    footer {
+        padding: 5px;
+        background: linear-gradient(to top, rgb(255, 0, 136), rgb(255, 255, 255));
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer {
+        color: rgb(0, 0, 255);
+        padding: 10px;
+    }
+
+    .footerFooter {
+        width: 3em;
+        height: 3em;
+    }
+
+    p {
+        font-size: 1.5em;
+    }
+
+    h1 {
+        font-size: 2.6em;
+    }
+
+    h2 {
+        font-size: 2.5em;
+    }
+
+    h3 {
+        font-size: 2.3em;
+    }
+
+    li {
+        font-size: 1.2em;
+    }
+
+    form input:hover {
+        cursor: pointer;
+        background-color: rgb(112, 112, 112);
+    }
+
+    div textarea:hover {
+        cursor: pointer;
+        background-color: rgb(112, 112, 112);
+    }
+}
+
+/*SPAN*/
+
+.parrafoDiferente {
+    color: rgb(255, 0, 0);
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+.parrafoDiferenteDos {
+    color: rgb(255, 68, 0);
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+.parrafoDiferenteTres {
+    color: rgb(0, 0, 255);
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+
+/*PAGINA DE LOS ANIMALES*/
+
+.claseNavAnimales {
+    background: linear-gradient(to top, yellow, rgb(1, 107, 168));
+}
+
+.claseNavAnimales img {
+    width: 175px;
+    height: 150px;
+    border: dashed;
+    color: blue;
+}
+
+.claseNavAnimales a {
+    color: white;
+    text-decoration: none;
+    font-style: italic;
+}
+
+.claseNavAnimales a:visited {
+    color: blue;
+}
+
+.claseNavAnimales a:active {
+    color: red;
+}
+
+.animales {
+    text-align: center;
+    color: blue;
+    padding: 5px;
+    text-transform: uppercase;
+    font-style: italic;
+    background: linear-gradient(to top, rgb(0, 255, 0), rgb(1, 107, 168));
+}
+
+.tituloAnimalesTitulo {
+    text-transform: lowercase;
+    color: black;
+    font-style: normal;
+}
+
+.vertebradosInvertebrados {
+    background-color: rgb(1, 107, 168);
+    color: white;
+    padding: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.vertebradoInvertebradoFlex {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.imgVertebradoInvertebrado {
+    width: 100%;
+    height: 100%;
+    border: dashed;
+    color: blue;
+}
+
+.vertebradoInvertebradoParrafo {
+    text-transform: lowercase;
+    font-style: normal;
+    color: black;
+}
+
+.alimentación {
+    text-align: center;
+    background-color: rgb(1, 107, 168);
+    color: white;
+    padding: 5px;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.alimentacionParrafo {
+    text-transform: lowercase;
+    font-style: normal;
+    color: black;
+}
+
+.habitat {
+    text-align: center;
+    padding: 5px;
+    background-color: rgb(1, 107, 168);
+    color: white;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.habitatParrafo {
+    text-transform: lowercase;
+    font-style: normal;
+    color: black;
+}
+
+.articuloDeImgTextoTerrestre {
+    display: flex;
+}
+
+.imgAnimalesImg {
+    width: 50%;
+    border: dashed;
+    color: blue;
+}
+
+.animalesComunes {
+    background-color: rgb(1, 107, 168);
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-style: italic;
+    padding: 10px;
+}
+
+.imgComunes {
+    display: inline-block;
+    border: dashed;
+    color: blue;
+}
+
+.imgComunesDos {
+    width: 250px;
+    height: 250px;
+}
+
+/*TABLET ANIMALES*/
+
+@media (width < 768px) {
+
+    .bodyAnimales {
+        background-color: rgb(0, 255, 0);
+    }
+
+    .claseNavAnimales {
+        background: linear-gradient(to top, rgb(0, 255, 0), yellow);
+    }
+
+    .claseNavAnimales img {
+        width: 175px;
+        height: 150px;
+        border: dashed;
+        color: blue;
+    }
+
+    .claseNavAnimales a {
+        color: black;
+        text-decoration: none;
+        font-style: italic;
+    }
+
+    .claseNavAnimales a:visited {
+        color: red;
+    }
+
+    .claseNavAnimales a:active {
+        color: rgb(255, 0, 136);
+    }
+
+    .animales {
+        text-align: center;
+        color: black;
+        padding: 5px;
+        text-transform: uppercase;
+        font-style: italic;
+    }
+
+    .tituloAnimalesTitulo {
+        text-transform: lowercase;
+        color: blue;
+        font-style: normal;
+    }
+
+    .vertebradosInvertebrados {
+        background-color: rgb(0, 255, 0);
+        color: black;
+        padding: 5px;
+        text-align: center;
+        text-transform: uppercase;
+        font-style: italic;
+    }
+
+    .vertebradoInvertebradoFlex {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .imgVertebradoInvertebrado {
+        width: 100%;
+        height: 100%;
+        border: dashed;
+        color: blue;
+    }
+
+    .vertebradoInvertebradoParrafo {
+        text-transform: lowercase;
+        font-style: normal;
+        color: blue;
+    }
+
+    .alimentación {
+        text-align: center;
+        background-color: rgb(0, 255, 0);
+        color: black;
+        padding: 5px;
+        text-transform: uppercase;
+        font-style: italic;
+    }
+
+    .alimentacionParrafo {
+        text-transform: lowercase;
+        font-style: normal;
+        color: blue;
+    }
+
+    .habitat {
+        text-align: center;
+        padding: 5px;
+        background-color: rgb(0, 255, 0);
+        color: black;
+        text-transform: uppercase;
+        font-style: italic;
+    }
+
+    .habitatParrafo {
+        text-transform: lowercase;
+        font-style: normal;
+        color: blue;
+    }
+
+    .articuloDeImgTextoTerrestre {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .imgAnimalesImg {
+        width: 100%;
+        border: dashed;
+        color: blue;
+    }
+
+    .animalesComunes {
+        background-color: rgb(0, 255, 0);
+        color: black;
+        text-align: center;
+        text-transform: uppercase;
+        font-style: italic;
+        padding: 10px;
+    }
+
+    .imgComunes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: dashed;
+        color: blue;
+    }
+
+    .imgComunesDos {
+        width: 100%;
+        height: 250px;
+    }
+}
+
+/*VISTA MOBILE ANIMALES*/
+
+@media (width < 320px) {
+    .bodyAnimales {
+        background-color: yellow;
+    }
+
+    .claseNavAnimales {
+        background: linear-gradient(to top, white, black);
+    }
+
+    .claseNavAnimales img {
+        width: 175px;
+        height: 150px;
+        border: dashed;
+        color: blue;
+    }
+
+    .claseNavAnimales a {
+        color: black;
+        text-decoration: none;
+        font-style: italic;
+    }
+
+    .claseNavAnimales a:visited {
+        color: red;
+    }
+
+    .claseNavAnimales a:active {
+        color: rgb(255, 0, 136);
+    }
+
+    .animales {
+        text-align: center;
+        color: red;
+        padding: 5px;
+        text-transform: uppercase;
+        font-style: italic;
+    }
+
+    .tituloAnimalesTitulo {
+        text-transform: lowercase;
+        color: blue;
+        font-style: normal;
+    }
+
+    .vertebradosInvertebrados {
+        background-color: yellow;
+        color: red;
+        padding: 5px;
+        text-align: center;
+        text-transform: uppercase;
+        font-style: italic;
+    }
+
+    .vertebradoInvertebradoFlex {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .imgVertebradoInvertebrado {
+        width: 100%;
+        height: 100%;
+        border: dashed;
+        color: blue;
+    }
+
+    .vertebradoInvertebradoParrafo {
+        text-transform: lowercase;
+        font-style: normal;
+        color: blue;
+    }
+
+    .alimentación {
+        text-align: center;
+        background-color: yellow;
+        color: red;
+        padding: 5px;
+        text-transform: uppercase;
+        font-style: italic;
+    }
+
+    .alimentacionParrafo {
+        text-transform: lowercase;
+        font-style: normal;
+        color: blue;
+    }
+
+    .habitat {
+        text-align: center;
+        padding: 5px;
+        background-color: yellow;
+        color: red;
+        text-transform: uppercase;
+        font-style: italic;
+    }
+
+    .habitatParrafo {
+        text-transform: lowercase;
+        font-style: normal;
+        color: blue;
+    }
+
+    .articuloDeImgTextoTerrestre {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .imgAnimalesImg {
+        width: 100%;
+        border: dashed;
+        color: blue;
+    }
+
+    .animalesComunes {
+        background-color: yellow;
+        color: red;
+        text-align: center;
+        text-transform: uppercase;
+        font-style: italic;
+        padding: 10px;
+    }
+
+    .imgComunes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: dashed;
+        color: blue;
+    }
+
+    .imgComunesDos {
+        width: 100%;
+        height: 250px;
+    }
+}
+
+
+
+/*PAGINA DE LAS ARQUEAS*/
+
+.bodyArqueas {
+    background-color: rgb(1, 107, 168);
+}
+
+.claseNavArqueas {
+    background: linear-gradient(to top, yellow, rgb(1, 107, 168));
+}
+
+.claseNavArqueas img {
+    width: 175px;
+    height: 150px;
+    border: dashed;
+    color: blue;
+}
+
+.claseNavArqueas a {
+    color: white;
+    font-style: italic;
+}
+
+.claseNavArqueas a:visited {
+    color: blue;
+}
+
+.claseNavArqueas a:active {
+    color: red;
+}
+
+.arqueas {
+    text-align: center;
+    padding: 5px;
+    background: linear-gradient(to top, rgb(0, 255, 0), rgb(1, 107, 168));
+    color: blue;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.arqueasArqueasArqueas {
+    text-transform: lowercase;
+    font-style: normal;
+    color: black;
+}
+
+.tipos {
+    text-align: center;
+    padding: 5px;
+    background-color: rgb(1, 107, 168);
+    color: white;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.tiposDeArqueasParrafo {
+    text-transform: lowercase;
+    font-style: normal;
+    color: black;
+}
+
+.reproducción {
+    text-align: center;
+    padding: 5px;
+    background-color: rgb(1, 107, 168);
+    color: white;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.reproduccionDeArqueasParrafo {
+    color: black;
+    text-transform: lowercase;
+    font-style: normal;
+}
+
+.flexArqueas {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.gemaciónBinariaParrafo {
+    text-transform: lowercase;
+    font-style: normal;
+    border: dashed;
+    color: black;
+}
+
+.tituloDescubrimientoTitulo {
+    background-color: rgb(1, 107, 168);
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-style: italic;
+    margin: 5px;
+}
+
+.carl {
+    text-align: center;
+    background-color: rgb(1, 107, 168);
+    color: black;
+    text-transform: lowercase;
+    font-style: normal;
+}
+
+.imgCarl {
+    width: 100%;
+    height: 100%;
+}
+
+.gridDescubrimiento {
+    display: grid;
+    grid-template-columns: 55% 1fr;
+    grid-template-rows: 510px 510px 510px;
+    grid-template-areas:
+        "img img img"
+        "img img img"
+        " p   p   p";
+}
+
+.img {
+    grid-area: img;
+}
+
+.pDescubrimiento {
+    grid-area: p;
+}
+
+/*TABLET ARQUEAS*/
+@media (width < 768px) {
+    .bodyArqueas {
+        background-color: rgb(0, 255, 0);
+    }
+
+    .claseNavArqueas {
+        background: linear-gradient(to top, rgb(0, 255, 0), yellow);
+    }
+
+    .claseNavArqueas img {
+        width: 175px;
+        height: 150px;
+        border: dashed;
+        color: blue;
+    }
+
+    .claseNavArqueas a {
+        color: black;
+        font-style: italic;
+    }
+
+    .claseNavArqueas a:visited {
+        color: red;
+    }
+
+    .claseNavArqueas a:active {
+        color: rgb(255, 0, 136);
+    }
+
+    .arqueas {
+        text-align: center;
+        padding: 5px;
+        color: black;
+        text-transform: uppercase;
+        font-style: italic;
+    }
+
+    .arqueasArqueasArqueas {
+        text-transform: lowercase;
+        font-style: normal;
+        color: blue;
+    }
+
+    .tipos {
+        text-align: center;
+        padding: 5px;
+        background-color: rgb(0, 255, 0);
+        color: black;
+        text-transform: uppercase;
+        font-style: italic;
+    }
+
+    .tiposDeArqueasParrafo {
+        text-transform: lowercase;
+        font-style: normal;
+        color: blue;
+    }
+
+    .reproducción {
+        text-align: center;
+        padding: 5px;
+        background-color: rgb(0, 255, 0);
+        color: black;
+        text-transform: uppercase;
+        font-style: italic;
+    }
+
+    .reproduccionDeArqueasParrafo {
+        color: blue;
+        text-transform: lowercase;
+        font-style: normal;
+    }
+
+    .flexArqueas {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .gemaciónBinariaParrafo {
+        text-transform: lowercase;
+        font-style: normal;
+        color: blue;
+        border: dashed;
+    }
+
+    .tituloDescubrimientoTitulo {
+        background-color: rgb(0, 255, 0);
+        text-align: center;
+        color: black;
+        text-transform: uppercase;
+        font-style: italic;
+        margin: 5px;
+    }
+
+    .carl {
+        text-align: center;
+        background-color: rgb(0, 255, 0);
+        color: blue;
+        text-transform: lowercase;
+        font-style: normal;
+    }
+
+    .imgCarl {
+        width: 100%;
+        height: 100%;
+    }
+
+    .gridDescubrimiento {
+        display: grid;
+        grid-template-columns: 55% 1fr;
+        grid-template-rows: 470px 470px;
+        grid-template-areas:
+            "img img"
+            "img img"
+            " p   p";
+    }
+
+    .img {
+        grid-area: img;
+    }
+
+    .pDescubrimiento {
+        grid-area: p;
+    }
+}
+
+/*VISTA MOBILE ARQUEAS*/
+@media (width < 320px) {
+
+    .bodyArqueas {
+        background-color: rgb(255, 255, 0);
+    }
+
+    .claseNavArqueas {
+        background: linear-gradient(to top, white, black);
+    }
+
+    .claseNavArqueas img {
+        width: 175px;
+        height: 150px;
+        border: dashed;
+        color: blue;
+    }
+
+    .claseNavArqueas a {
+        color: black;
+        font-style: italic;
+    }
+
+    .claseNavArqueas a:visited {
+        color: red;
+    }
+
+    .claseNavArqueas a:active {
+        color: rgb(255, 0, 136);
+    }
+
+    .arqueas {
+        text-align: center;
+        padding: 5px;
+        color: red;
+        text-transform: uppercase;
+        font-style: italic;
+        font-size: small;
+    }
+
+    .arqueasArqueasArqueas {
+        text-transform: lowercase;
+        font-style: normal;
+        color: blue;
+    }
+
+    .tipos {
+        text-align: center;
+        padding: 5px;
+        background-color: yellow;
+        color: red;
+        text-transform: uppercase;
+        font-style: italic;
+        font-size: small;
+    }
+
+    .tiposDeArqueasParrafo {
+        text-transform: lowercase;
+        font-style: normal;
+        color: blue;
+    }
+
+    .reproducción {
+        text-align: center;
+        padding: 5px;
+        background-color: yellow;
+        color: blue;
+        text-transform: uppercase;
+        font-style: italic;
+    }
+
+    .reproduccionDeLasArqueasTitulo {
+        font-size: 30px;
+    }
+
+    .reproduccionDeArqueasParrafo {
+        color: blue;
+        text-transform: lowercase;
+        font-style: normal;
+    }
+
+    .flexArqueas {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .gemaciónBinariaParrafo {
+        text-transform: lowercase;
+        font-style: normal;
+        border: dashed;
+        color: blue;
+    }
+
+    .tituloDescubrimientoTitulo {
+        background-color: yellow;
+        text-align: center;
+        color: red;
+        text-transform: uppercase;
+        font-style: italic;
+        margin: 5px;
+    }
+
+    .carl {
+        text-align: center;
+        background-color: yellow;
+        color: blue;
+        text-transform: lowercase;
+        font-style: normal;
+    }
+
+    .imgCarl {
+        width: 100%;
+        height: 100%;
+    }
+
+    .gridDescubrimiento {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas:
+            "h2"
+            "img"
+            "p";
+    }
+
+    .hH {
+        grid-area: h2;
+    }
+
+    .img {
+        grid-area: img;
+    }
+
+    .pDescubrimiento {
+        grid-area: p;
+    }
+}
+
+/*PAGINA DE LAS BACTERIAS*/
+
+.claseNavBacterias {
+    background: linear-gradient(to top, yellow, rgb(1, 107, 168));
+}
+
+.claseNavBacterias img {
+    width: 175px;
+    height: 150px;
+    border: dashed;
+    color: blue;
+}
+
+.claseNavBacterias a {
+    color: white;
+    font-style: italic;
+}
+
+.claseNavBacterias a:visited {
+    color: blue;
+}
+
+.claseNavBacterias a:active {
+    color: red;
+}
+
+.bacteriasYMicrómetria {
+    background: linear-gradient(to top, rgb(0, 255, 0), rgb(1, 107, 168));
+    color: blue;
+    text-align: center;
+    padding: 5px;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.micrometriaYTaxonomia {
+    color: white;
+}
+
+.bacteriasYMicrometriaParrafo {
+    text-transform: lowercase;
+    font-style: normal;
+    color: black;
+}
+
+.imgBacterias {
+    width: 100%;
+    height: 100%;
+}
+
+.imgParasito {
+    width: 50%;
+    height: 100%;
+}
+
+.todoLoDemas {
+    background-color: rgb(1, 107, 168);
+    color: white;
+    text-align: center;
+    padding: 5px;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.gridVirus {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 10px;
+    color: black;
+    text-transform: lowercase;
+    font-style: normal;
+}
+
+.parasitoParrafo {
+    color: black;
+    text-transform: lowercase;
+    font-style: normal;
+}
+
+.todoLoDemasDos {
+    text-align: center;
+    display: flex;
+}
+
+.todoLoDemasDos li {
+    list-style-type: none;
+}
+
+.bordeVirus {
+    width: 50%;
+    background-color: rgb(1, 107, 168);
+    color: black;
+}
+
+.bordeBacterias {
+    width: 50%;
+    background-color: rgb(1, 107, 168);
+    color: black;
+}
+
+/*TABLET BACTERIAS*/
+@media (width < 768px) {
+
+    .bodyBacterias {
+        background-color: rgb(0, 255, 0);
+    }
+
+    .claseNavBacterias {
+        background: linear-gradient(to top, rgb(0, 255, 0), yellow);
+    }
+
+    .claseNavBacterias img {
+        width: 175px;
+        height: 150px;
+        border: dashed;
+        color: blue;
+    }
+
+    .claseNavBacterias a {
+        color: black;
+        font-style: italic;
+    }
+
+    .claseNavBacterias a:visited {
+        color: red;
+    }
+
+    .claseNavBacterias a:active {
+        color: deeppink;
+    }
+
+    .bacteriasYMicrómetria {
+        color: black;
+        text-align: center;
+        padding: 5px;
+        text-transform: uppercase;
+        font-style: italic;
+    }
+
+    .micrometriaYTaxonomia {
+        color: black;
+        text-transform: uppercase;
+        font-style: italic;
+        text-align: center;
+    }
+
+    .bacteriasYMicrometriaParrafo {
+        text-transform: lowercase;
+        font-style: normal;
+        color: blue;
+    }
+
+    .imgBacterias {
+        width: 100%;
+        height: 100%;
+    }
+
+    .imgParasito {
+        width: 100%;
+        height: 100%;
+    }
+
+    .todoLoDemas {
+        background-color: rgb(0, 255, 0);
+        color: black;
+        text-align: center;
+        padding: 5px;
+        text-transform: uppercase;
+        font-style: italic;
+    }
+
+    .gridVirus {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        column-gap: 10px;
+        color: blue;
+        text-transform: lowercase;
+        font-style: normal;
+    }
+
+    .textoParasitoParrafo {
+        color: black;
+        text-transform: uppercase;
+        font-style: italic;
+    }
+
+    .parasitoParrafo {
+        color: blue;
+        text-transform: lowercase;
+        font-style: normal;
+    }
+
+    .todoLoDemasDos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .todoLoDemasDos li {
+        list-style-type: none;
+    }
+
+    .bordeVirus {
+        width: 50%;
+        background-color: rgb(0, 255, 0);
+        color: black;
+        letter-spacing: 2px;
+        border: dashed;
+    }
+
+    .bordeBacterias {
+        width: 50%;
+        background-color: rgb(0, 255, 0);
+        color: black;
+        letter-spacing: 2px;
+        border: dashed;
+    }
+}
+
+/*VISTA MOBILE BACTERIAS*/
+@media (width < 320px) {
+
+    .bodyBacterias {
+        background-color: yellow;
+    }
+
+    .claseNavBacterias {
+        background: linear-gradient(to top, white, black);
+    }
+
+    .claseNavBacterias img {
+        width: 175px;
+        height: 150px;
+        border: dashed;
+        color: blue;
+    }
+
+    .claseNavBacterias a {
+        color: black;
+        font-style: italic;
+    }
+
+    .claseNavBacterias a:visited {
+        color: red;
+    }
+
+    .claseNavBacterias a:active {
+        color: rgb(255, 0, 136);
+    }
+
+    .bacteriasYMicrómetria {
+        color: red;
+        text-align: center;
+        padding: 5px;
+        text-transform: uppercase;
+        font-style: italic;
+    }
+
+    .micrometriaYTaxonomia {
+        color: red;
+    }
+
+    .bacteriasYMicrometriaParrafo {
+        text-transform: lowercase;
+        font-style: normal;
+        color: blue;
+    }
+
+    .imgBacterias {
+        width: 100%;
+        height: 100%;
+    }
+
+    .imgParasito {
+        width: 100%;
+        height: 100%;
+    }
+
+    .todoLoDemas {
+        background-color: yellow;
+        color: red;
+        text-align: center;
+        padding: 5px;
+        text-transform: uppercase;
+        font-style: italic;
+    }
+
+    .gridVirus {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        column-gap: 10px;
+        color: blue;
+        text-transform: lowercase;
+        font-style: normal;
+    }
+
+    .textoParasitoParrafo {
+        color: red;
+        text-transform: uppercase;
+        font-style: italic;
+    }
+
+    .parasitoParrafo {
+        color: blue;
+        text-transform: lowercase;
+        font-style: normal;
+    }
+
+    .todoLoDemasDos {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .todoLoDemasDos li {
+        list-style-type: none;
+    }
+
+    .bordeVirus {
+        width: 100%;
+        background-color: yellow;
+        color: blue;
+        font-size: small;
+        border: none;
+    }
+
+    .bordeBacterias {
+        width: 100%;
+        background-color: yellow;
+        color: blue;
+        font-size: small;
+        border: none;
+    }
+}
+
+/*PAGINA DE LAS CROMISTAS*/
+
+.claseNavCromistas {
+    background: linear-gradient(to top, yellow, rgb(1, 107, 168));
+}
+
+.claseNavCromistas img {
+    width: 175px;
+    height: 150px;
+    border: dashed;
+    color: blue;
+}
+
+.claseNavCromistas a {
+    color: white;
+    font-style: italic;
+    text-decoration: none;
+}
+
+.claseNavCromistas a:visited {
+    color: blue;
+}
+
+.claseNavCromistas a:active {
+    color: red;
+}
+
+.cromistas {
+    padding: 5px;
+    background: linear-gradient(to top, rgb(0, 255, 0), rgb(1, 107, 168));
+    color: blue;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.cromistasParrafo {
+    text-transform: lowercase;
+    font-style: normal;
+    color: black;
+}
+
+.cloroplasto {
+    border: dashed;
+    color: blue;
+    background: linear-gradient(to top, red, rgb(255, 0, 255));
+    text-align: center;
+}
+
+.cloroplastoTitulo {
+    color: white;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.cloroplastoParrafo {
+    color: black;
+    text-transform: lowercase;
+    font-style: normal;
+}
+
+.descubrimiento {
+    text-align: center;
+    padding: 5px;
+    background-color: rgb(1, 107, 168);
+    color: white;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.párrafoDescubrimiento {
+    display: flex;
+}
+
+.imgDescubrimiento {
+    width: 25%;
+    border: dashed;
+    color: blue;
+}
+
+.biografia {
+    text-align: center;
+    padding: 5px;
+    background-color: rgb(1, 107, 168);
+    color: white;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.biografiaParrafo {
+    text-transform: lowercase;
+    font-style: normal;
+    color: black;
+}
+
+/*TABLET CROMISTAS*/
+@media (width < 768px) {
+
+    .bodyCromistas {
+        background-color: rgb(0, 255, 0);
+    }
+
+    .claseNavCromistas {
+        background: linear-gradient(to top, rgb(0, 255, 0), yellow);
+    }
+
+    .claseNavCromistas img {
+        width: 175px;
+        height: 150px;
+        border: dashed;
+        color: blue;
+    }
+
+    .claseNavCromistas a {
+        color: black;
+        font-style: italic;
+        text-decoration: none;
+    }
+
+    .claseNavCromistas a:visited {
+        color: red;
+    }
+
+    .claseNavCromistas a:active {
+        color: rgb(255, 0, 136);
+    }
+
+    .cromistas {
+        padding: 5px;
+        color: black;
+        text-transform: uppercase;
+        font-style: italic;
+    }
+
+    .cromistasParrafo {
+        text-transform: lowercase;
+        font-style: normal;
+        color: blue;
+    }
+
+    .cloroplasto {
+        background: linear-gradient(to top, blue, aqua);
+        border: dashed;
+        color: blue;
+        text-align: center;
+    }
+
+    .cloroplastoTitulo {
+        color: black;
+        text-transform: uppercase;
+        font-style: italic;
+    }
+
+    .cloroplastoParrafo {
+        color: red;
+        text-transform: lowercase;
+        font-style: normal;
+    }
+
+    .descubrimiento {
+        text-align: center;
+        padding: 5px;
+        background-color: rgb(0, 255, 0);
+        color: black;
+        text-transform: uppercase;
+        font-style: italic;
+    }
+
+    .párrafoDescubrimiento {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .imgDescubrimiento {
+        width: 100%;
+        border: dashed;
+        color: blue;
+    }
+
+    .biografiaParrafo {
+        text-transform: lowercase;
+        font-style: normal;
+        color: blue;
+    }
+
+    .biografia {
+        text-align: center;
+        padding: 5px;
+        background-color: rgb(0, 255, 0);
+        color: black;
+        text-transform: uppercase;
+        font-style: italic;
+    }
+}
+
+/*VISTA MOBILE CROMISTAS*/
+@media (width < 320px) {
+
+    .bodyCromistas {
+        background-color: yellow;
+    }
+
+    .claseNavCromistas {
+        background: linear-gradient(to top, white, black);
+    }
+
+    .claseNavCromistas img {
+        width: 175px;
+        height: 150px;
+        border: dashed;
+        color: blue;
+    }
+
+    .claseNavCromistas a {
+        color: black;
+        font-style: italic;
+        text-decoration: none;
+    }
+
+    .claseNavCromistas a:visited {
+        color: red;
+    }
+
+    .claseNavCromistas a:active {
+        color: rgb(255, 0, 136);
+    }
+
+    .cromistas {
+        padding: 5px;
+        color: red;
+        text-transform: uppercase;
+        font-style: italic;
+    }
+
+    .cromistasParrafo {
+        text-transform: lowercase;
+        font-style: normal;
+        color: blue;
+    }
+
+    .cloroplasto {
+        border: dashed;
+        color: blue;
+        background: linear-gradient(to top, green, darkblue);
+        text-align: center;
+    }
+
+    .cloroplastoTitulo {
+        color: red;
+        text-transform: uppercase;
+        font-style: italic;
+    }
+
+    .cloroplastoParrafo {
+        color: white;
+        text-transform: lowercase;
+        font-style: normal;
+    }
+
+    .descubrimiento {
+        text-align: center;
+        padding: 5px;
+        background-color: yellow;
+        color: red;
+        text-transform: uppercase;
+        font-style: italic;
+    }
+
+    .párrafoDescubrimiento {
+        display: flex;
+    }
+
+    .imgDescubrimiento {
+        width: 100%;
+        border: dashed;
+        color: blue;
+    }
+
+    .biografia {
+        text-align: center;
+        padding: 5px;
+        background-color: yellow;
+        color: red;
+        text-transform: uppercase;
+        font-style: italic;
+    }
+
+    .biografiaParrafo {
+        text-transform: lowercase;
+        font-style: normal;
+        color: blue;
+    }
+
+}
+
+/*PAGINA DE LOS HONGOS*/
+
+.bodyHongos {
+    background-color: rgb(1, 107, 168);
+}
+
+.claseNavHongos {
+    background: linear-gradient(to top, yellow, rgb(1, 107, 168));
+}
+
+.claseNavHongos img {
+    width: 175px;
+    height: 150px;
+    border: dashed;
+    color: blue;
+}
+
+.claseNavHongos a {
+    color: white;
+    font-style: italic;
+    text-decoration: none;
+}
+
+.claseNavHongos a:visited {
+    color: blue;
+}
+
+.claseNavHongos a:active {
+    color: red;
+}
+
+.pHongo {
+    text-align: center;
+    color: black;
+    text-transform: lowercase;
+    font-style: normal;
+}
+
+.tituloHongo {
+    color: white;
+    text-transform: uppercase;
+    font-style: italic;
+    text-align: center;
+}
+
+.tituloQueEsUnHongo {
+    color: blue;
+    text-transform: uppercase;
+    font-style: italic;
+    text-align: center;
+}
+
+.background {
+    background-color: rgb(1, 107, 168);
+}
+
+.animacionesHongos {
+    background: linear-gradient(to top, rgb(0, 255, 0), rgb(1, 107, 168));
+}
+
+.mapa {
+    text-align: center;
+}
+
+.iframeHongo {
+    width: 75%;
+    height: 515px;
+}
+
+/*TABLET HONGOS*/
+
+@media (width < 768px) {
+    .bodyHongos {
+        background-color: rgb(0, 255, 0);
+    }
+
+    .claseNavHongos {
+        background: linear-gradient(to top, rgb(0, 255, 0), yellow);
+    }
+
+    .claseNavHongos img {
+        width: 175px;
+        height: 150px;
+        border: dashed;
+        color: blue;
+    }
+
+    .claseNavHongos a {
+        color: black;
+        font-style: italic;
+        text-decoration: none;
+    }
+
+    .claseNavHongos a:visited {
+        color: red;
+    }
+
+    .claseNavHongos a:active {
+        color: rgb(255, 0, 136);
+    }
+
+    .tituloQueEsUnHongo {
+        color: black;
+        text-transform: uppercase;
+        font-style: italic;
+        text-align: center;
+    }
+
+    .pHongo {
+        text-align: center;
+        color: blue;
+        text-transform: lowercase;
+        font-style: normal;
+    }
+
+    .tituloHongo {
+        color: black;
+        text-transform: uppercase;
+        font-style: italic;
+        text-align: center;
+    }
+
+    .background {
+        background-color: rgb(0, 255, 0);
+    }
+
+    .mapa {
+        text-align: center;
+    }
+
+    .iframeHongo {
+        width: 75%;
+        height: 515px;
+    }
+}
+
+/*VISTA MOBILE HONGOS*/
+
+@media (width < 320px) {
+
+    .bodyHongos {
+        background-color: yellow;
+    }
+
+    .claseNavHongos {
+        background: linear-gradient(to top, white, black);
+    }
+
+    .claseNavHongos img {
+        width: 175px;
+        height: 150px;
+        border: dashed;
+        color: blue;
+    }
+
+    .claseNavHongos a {
+        color: black;
+        font-style: italic;
+        text-decoration: none;
+    }
+
+    .claseNavHongos a:visited {
+        color: red;
+    }
+
+    .claseNavHongos a:active {
+        color: rgb(255, 0, 136);
+    }
+
+    .pHongo {
+        text-align: center;
+        color: blue;
+        text-transform: lowercase;
+        font-style: normal;
+    }
+
+    .tituloHongo {
+        color: red;
+        text-transform: uppercase;
+        font-style: italic;
+        text-align: center;
+    }
+
+    .tituloQueEsUnHongo {
+        color: red;
+        text-transform: uppercase;
+        font-style: italic;
+        text-align: center;
+    }
+
+    .background {
+        background-color: yellow;
+    }
+
+    .mapa {
+        text-align: center;
+    }
+
+    .iframeHongo {
+        width: 100%;
+        height: 315px;
+    }
+
+}
+
+/*PAGINA DE LAS PLANTAS*/
+
+.bodyPlantas {
+    background-color: rgb(1, 107, 168);
+}
+
+.claseNavPlantasPlantas {
+    background: linear-gradient(to top, yellow, rgb(1, 107, 168));
+}
+
+.claseNavPlantasPlantas img {
+    width: 175px;
+    height: 150px;
+    border: dashed;
+    color: blue;
+}
+
+.claseNavPlantasPlantas a {
+    color: white;
+    font-style: italic;
+    text-decoration: none;
+}
+
+.claseNavPlantasPlantas a:visited {
+    color: blue;
+}
+
+.claseNavPlantasPlantas a:active {
+    color: red;
+}
+
+.tituloPlantas {
+    color: white;
+    text-transform: uppercase;
+    font-style: italic;
+    text-align: center;
+}
+
+.plantas {
+    background-color: rgb(1, 107, 168);
+    text-transform: lowercase;
+    font-style: normal;
+    color: black;
+    text-align: center;
+}
+
+.animacionesPlantas {
+    background: linear-gradient(to top, rgb(0, 255, 0), rgb(1, 107, 168));
+    color: blue;
+    text-transform: uppercase;
+    font-style: italic;
+    text-align: center;
+}
+
+.animacionesPlantasParrafo {
+    color: black;
+    text-transform: lowercase;
+    font-style: normal;
+    text-align: center;
+}
+
+.gridPlantaGrid {
+    display: grid;
+    justify-content: center;
+}
+
+.cuatroArbustos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imgArbusto {
+    width: 50%;
+    height: 50%;
+    border: dashed;
+    color: blue;
+}
+
+.imgPartePlanta {
+    width: 100%;
+    height: 100%;
+    border: dashed;
+    color: blue;
+}
+
+.imgTamañoFlor {
+    width: 50%;
+    height: 50%;
+    border: dashed;
+    color: blue;
+}
+
+.imgParteArbol {
+    width: 50%;
+    height: 50%;
+    border: dashed;
+    color: blue;
+}
+
+.mapaPlantas {
+    width: 100%;
+    height: 700px;
+    border: 0;
+}
+
+/*TABLET PLANTAS*/
+
+@media (width < 768px) {
+
+    .bodyPlantas {
+        background-color: rgb(0, 255, 0);
+    }
+
+    .claseNavPlantasPlantas {
+        background: linear-gradient(to top, rgb(0, 255, 0), yellow);
+    }
+
+    .claseNavPlantasPlantas a {
+        color: black;
+        font-style: italic;
+        text-decoration: none;
+    }
+
+    .claseNavPlantasPlantas a:visited {
+        color: blue;
+    }
+
+    .claseNavPlantasPlantas a:active {
+        color: red;
+    }
+
+    .tituloPlantas {
+        color: black;
+        text-transform: uppercase;
+        font-style: italic;
+        text-align: center;
+    }
+
+    .plantas {
+        background-color: rgb(0, 255, 0);
+        padding: 5px;
+        text-transform: lowercase;
+        font-style: normal;
+        color: blue;
+        text-align: center;
+    }
+
+    .animacionesPlantas {
+        color: black;
+        text-transform: uppercase;
+        font-style: italic;
+        text-align: center;
+    }
+
+    .animacionesPlantasParrafo {
+        color: blue;
+        text-transform: lowercase;
+        font-style: normal;
+        text-align: center;
+    }
+
+    .imgTamañoFlor {
+        width: 100%;
+        height: 100%;
+        border: dashed;
+        color: blue;
+    }
+
+
+    .imgParteArbol {
+        width: 100%;
+        height: 100%;
+        border: dashed;
+        color: blue;
+    }
+}
+
+/*MOBILE PLANTAS*/
+
+@media (width < 320px) {
+
+    .bodyPlantas {
+        background-color: yellow;
+    }
+
+    .claseNavPlantasPlantas {
+        background: linear-gradient(to top, white, black);
+    }
+
+    .claseNavPlantasPlantas img {
+        width: 175px;
+        height: 150px;
+        border: dashed;
+        color: blue;
+    }
+
+    .claseNavPlantasPlantas a {
+        color: black;
+        font-style: italic;
+        text-decoration: none;
+    }
+
+    .claseNavPlantasPlantas a:visited {
+        color: red;
+    }
+
+    .claseNavPlantasPlantas a:active {
+        color: rgb(255, 0, 136);
+    }
+
+    .tituloPlantas {
+        color: red;
+        text-transform: uppercase;
+        font-style: italic;
+        text-align: center;
+    }
+
+    .plantas {
+        background-color: yellow;
+        text-transform: lowercase;
+        font-style: normal;
+        color: blue;
+        text-align: center;
+    }
+
+    .animacionesPlantas {
+        color: red;
+        text-transform: uppercase;
+        font-style: italic;
+        text-align: center;
+    }
+
+    .animacionesPlantasParrafo {
+        color: blue;
+        text-transform: lowercase;
+        font-style: normal;
+        text-align: center;
+    }
+
+    .gridPlantaGrid {
+        display: grid;
+        justify-content: center;
+    }
+
+    .cuatroArbustos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .imgArbusto {
+        width: 100%;
+        height: 100%;
+        border: dashed;
+        color: blue;
+    }
+
+    .imgPartePlanta {
+        width: 100%;
+        height: 100%;
+        border: dashed;
+        color: blue;
+    }
+
+    .imgTamañoFlor {
+        width: 100%;
+        height: 100%;
+        border: dashed;
+        color: blue;
+    }
+
+    .imgParteArbol {
+        width: 100%;
+        height: 100%;
+        border: dashed;
+        color: blue;
+    }
+
+    .mapaPlantas {
+        width: 100%;
+        height: 700px;
+    }
+
+}
+
+/*PAGINA PROTOZOARIOS*/
+
+.claseNavProtozoarios {
+    background: linear-gradient(to top, yellow, rgb(1, 107, 168));
+}
+
+.claseNavProtozoarios img {
+    width: 175px;
+    height: 150px;
+    border: dashed;
+    color: blue;
+}
+
+.claseNavProtozoarios a {
+    color: white;
+    font-style: italic;
+    text-decoration: none;
+}
+
+.claseNavProtozoarios a:visited {
+    color: blue;
+}
+
+.claseNavProtozoarios a:active {
+    color: red;
+}
+
+.protozoarios {
+    background: linear-gradient(to top, rgb(0, 255, 0), rgb(1, 107, 168));
+    color: blue;
+    padding: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.protozoariosParrafo {
+    text-transform: lowercase;
+    font-style: normal;
+    color: black;
+}
+
+.caracteristicasProtozoarios {
+    background-color: rgb(1, 107, 168);
+    color: white;
+    padding: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.caracteristicasProtozoariosParrafos {
+    text-transform: lowercase;
+    font-style: normal;
+    color: black;
+}
+
+.videoProtozoarios {
+    background-color: rgb(1, 107, 168);
+    color: white;
+    padding: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.tresVideos {
+    display: flex;
+    flex-direction: row;
+}
+
+.otrosTresVideos {
+    width: 100%;
+    height: 500px;
+    border: dashed;
+    color: blue;
+}
+
+
+/*TABLET PROTOZOARIOS*/
+
+@media (width < 768px) {
+    .claseNavProtozoarios {
+        background: linear-gradient(to top, rgb(0, 255, 0), yellow);
+    }
+
+    .claseNavProtozoarios a {
+        color: black;
+        font-style: italic;
+        text-decoration: none;
+    }
+
+    .claseNavProtozoarios a:visited {
+        color: red;
+    }
+
+    .claseNavProtozoarios a:active {
+        color: rgb(255, 0, 136);
+    }
+
+    .protozoarios {
+        color: black;
+        padding: 5px;
+        text-align: center;
+        text-transform: uppercase;
+        font-style: italic;
+    }
+
+    .protozoariosParrafo {
+        text-transform: lowercase;
+        font-style: normal;
+        color: blue;
+    }
+
+    .caracteristicasProtozoarios {
+        background-color: rgb(0, 255, 0);
+        color: black;
+        padding: 5px;
+        text-align: center;
+        text-transform: uppercase;
+        font-style: italic;
+    }
+
+    .caracteristicasProtozoariosParrafos {
+        text-transform: lowercase;
+        font-style: normal;
+        color: blue;
+    }
+
+    .videoProtozoarios {
+        background-color: rgb(0, 255, 0);
+        color: black;
+        padding: 5px;
+        text-align: center;
+        text-transform: uppercase;
+        font-style: italic;
+    }
+
+    .tresVideos {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/*VISTA MOBILE PROTOZOARIOS*/
+
+@media (width < 320px) {
+
+    .bodyProtozoarios {
+        background-color: yellow;
+    }
+
+    .claseNavProtozoarios {
+        background: linear-gradient(to top, white, black);
+    }
+    
+    .claseNavProtozoarios img {
+        width: 175px;
+        height: 150px;
+        border: dashed;
+        color: blue;
+    }
+    
+    .claseNavProtozoarios a {
+        color: black;
+        font-style: italic;
+        text-decoration: none;
+    }
+    
+    .claseNavProtozoarios a:visited {
+        color: red;
+    }
+    
+    .claseNavProtozoarios a:active {
+        color: rgb(255, 0, 136);
+    }
+    
+    .protozoarios {
+        color: red;
+        padding: 5px;
+        text-align: center;
+        text-transform: uppercase;
+        font-style: italic;
+        font-size: small;
+    }
+    
+    .protozoariosParrafo {
+        text-transform: lowercase;
+        font-style: normal;
+        color: blue;
+    }
+    
+    .caracteristicasProtozoarios {
+        background-color: yellow;
+        color: red;
+        padding: 5px;
+        text-align: center;
+        text-transform: uppercase;
+        font-style: italic;
+        font-size: small;
+    }
+    
+    .caracteristicasProtozoariosParrafos {
+        text-transform: lowercase;
+        font-style: normal;
+        color: blue;
+    }
+    
+    .videoProtozoarios {
+        background-color: yellow;
+        color: red;
+        padding: 5px;
+        text-align: center;
+        text-transform: uppercase;
+        font-style: italic;
+        font-size: small;
+    }
+    
+    .tresVideos {
+        display: flex;
+        flex-direction: column;
+    }
+}
